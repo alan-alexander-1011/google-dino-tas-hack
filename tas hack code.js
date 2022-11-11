@@ -1,3 +1,5 @@
+var originalGameOver = Runner.prototype.gameOver //original game over setting
+
 function tas_hack(speed_hack, jump_velocity, gameOver_setting){
     
     if (speed_hack === 'original') {// if the speed hack parameter = 'original' then it will set to normal speed
@@ -21,4 +23,5 @@ function tas_hack(speed_hack, jump_velocity, gameOver_setting){
     }
 }
 //how to type:
-//goto console in google dev window, then type tas_hack('int speed do you want to hack', 'int jump velocity(i think it won't work) you want to hack', '1 to invicible, "original" for normal dead')
+//goto console in google dev window, then type tas_hack('int speed do you want to hack', 'int jump velocity(i think it won't work) you want to hack', 
+//'1 to invicible, "original" for normal dead')
